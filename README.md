@@ -46,5 +46,5 @@ docker-compose up
 Ou se preferir executar com o docker, é só executar os comandos:
 ```bash
 docker build . -t aprova-digital-challenge
-docker run -p 3000:3000 aprova-digital-challenge
+docker run -dp 3000:3000 aprova-digital-challenge
 ```
